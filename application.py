@@ -39,6 +39,10 @@ else:
 mydb = sqlite3.connect("hybrid_cryptography_system.db", check_same_thread=False)
 mydb.row_factory = sqlite3.Row
 mycursor = mydb.cursor()
+
+##delete table uncomment below 2 lines and again comment it.
+mycursor.execute(DROP TABLE User_Master;)
+mycursor.execute(DROP TABLE Health_Data;)
 #======================================================================================
 
 

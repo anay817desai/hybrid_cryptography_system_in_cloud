@@ -1,0 +1,8 @@
+#python31012
+Flask
+pandas
+secure-smtplib
+py-emails
+pycryptodomex
+cryptography
+

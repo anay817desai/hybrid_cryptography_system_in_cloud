@@ -1,0 +1,704 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@font-face {
+font-family: "Righteous";
+src: url("../fonts/BalooChettan-Regular.ttf");
+src: url("../fonts/BalooChettan-Regular.ttf");
+}
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(css/font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+     box-sizing: border-box !important;
+     transition: ease all 0.5s;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #fff;
+     font-size: 14px;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+     font-family: Poppins;
+}
+
+a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 {
+     font-size: 24px
+}
+
+h2 {
+     font-size: 22px
+}
+
+h3 {
+     font-size: 18px
+}
+
+h4 {
+     font-size: 16px
+}
+
+h5 {
+     font-size: 14px
+}
+
+h6 {
+     font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+button:focus {
+     outline: none;
+}
+
+ul,
+li,
+ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 20px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+a,
+.btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+ :focus {
+     outline: 0;
+}
+
+.paddind_bottom_0 {
+     padding-bottom: 0 !important;
+}
+
+.btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+
+.lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+
+.form-control:focus {
+     border-color: #ffffff !important;
+     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+.navbar-form input {
+     border: none !important;
+}
+
+.badge {
+     font-weight: 500;
+}
+
+blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+
+button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+
+.full {
+     float: left;
+     width: 100%;
+}
+
+.layout_padding {
+     padding-top: 90px;
+     padding-bottom: 0px;
+}
+
+.padding_0{
+     padding: 0px;
+}
+.header_section{
+     width: 100%;
+     float: left;
+     background-color: #356db5;
+     background-image: url(../images/pattern.png);
+     height: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-size: 100%;
+     background-repeat: no-repeat;
+}
+.background_bg {
+    width: 100%;
+    float: left;
+    background-image: url(../images/img5.jpg);
+    height: auto;   
+    border-bottom: 2px;
+    border-color: #356db5 !important;
+    border-style: dotted;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 10px;
+}
+.bg-dark {
+    background-color: transparent !important;
+}
+.care_text {
+    width: 100%;
+    float: left;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 350px;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #356db5;
+}
+
+.long_text{
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #ffffff;
+     text-align: center;
+     margin-left: 0px;
+}
+.contact_bt{
+     width: 200px;
+     margin: 0 auto;
+     text-align: center;
+}
+.contact_bt a{
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #ffffff;
+     background-image: url(../images/cbg.jpg);
+     padding: 10px 0px; 
+     text-align: center;
+     border-radius: 30px;
+     margin-top: 10px;
+}
+
+.about_section{
+     width: 100%;
+     float: left;
+     padding-bottom: 90px;
+     position: relative;
+}
+.image_1{
+     width: 100%;
+     float: left;
+     text-align: right;
+}
+.about_taital{
+     width: 100%;
+     float: left;
+     font-size: 40px;
+     color: #222b3c;
+}
+.lorem_text{
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #454444;
+     margin-left: 0px;
+}
+.read_bt {
+    width: 170px;
+    float: left;
+    margin-top: 30px;
+}
+.read_bt a {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    border: 2px;
+    border-style: dotted;
+    border-radius: 30px;
+    text-align: center;
+    border-color: #356db5;
+    padding: 10px 30px;
+}
+.read_bt a:hover{
+     color: #356db5;
+}
+.services_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.services_taital{
+     width: 100%;
+     float: left;
+     font-size: 40px;
+     color: #fff; 
+     text-align: right; 
+}
+.ipsum_text{
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #454444;
+     margin-left: 0px;
+     text-align: right;
+}
+.services_section_2{
+     width: 100%;
+     float: left;
+}
+.image_2{
+     width: 100%;
+     float: left;
+}
+.hight_text {
+    width: 100%;
+    float: left;
+    color: #262626;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+.long_text_1{
+     width: 100%;
+     float: left;
+     color: #fff;
+     font-size: 16px;
+     margin-left: 0px;
+     text-align: center;
+}
+
+.border_top_0 {
+    margin-top: 70px;
+    width: 86%;
+    float: left;
+    border: 1px;
+    transform: rotate(-32deg);
+    margin-left: 70px;
+    border-color: #356db5;
+    border-style: dotted;
+
+}
+
+.read_bt1 {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.read_bt1 a {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    border: 2px;
+    border-style: dotted;
+    border-radius: 30px;
+    text-align: center;
+    border-color: #356db5;
+    padding: 10px 35px;
+    margin-top: 30px;
+}
+.read_bt1 a:hover{
+     color: #356db5;
+}
+.hospital_section{
+     width: 100%;
+     float: left;
+     background-color: #356db5;
+     height: auto;
+     padding: 90px;
+     background-size: cover;
+}
+.hospital_taital {
+    width: 100%;
+    float: left;
+    font-size: 44px;
+    color: #ffffff;
+    padding-top: 40px;
+}
+.lorem_text_1{
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #ffffff;
+     margin-left: 0px
+}
+
+.read_bt2 {
+    width: 170px;
+    float: left;
+}
+.read_bt2 a {
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    border: 2px;
+    border-style: dotted;
+    border-radius: 30px;
+    text-align: center;
+    border-color: #ffffff;
+    padding: 10px 40px;
+    margin-top: 30px;
+}
+.read_bt2 a:hover{
+     color: #fff;
+}
+.image_5 {
+    width: 100%;
+    float: left;
+}
+.clinic_section{
+     width: 100%;
+     float: left;
+}
+.clinic_section_2{
+     width: 100%;
+     float: left;
+     padding-top: 50px; 
+}
+.clinic_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.testimonial_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.Clinic_text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #356db5;
+    text-align: center;
+    margin: 0px;
+    padding-left: 76px;
+    position: relative;
+    top: -30px;
+}
+.image_6{
+     width: 100%;
+     float: left;
+}
+h5.digital_text {
+    width: 90%;
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 0px;
+    position: absolute;
+    padding-bottom: 10px;
+    top: inherit;
+    bottom: 80px;
+}
+.client_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 60px;
+}
+.client_section_2{
+     width: 100%;
+     float: left;
+}
+.client_left{
+     width: 30%;
+     float: left;
+}
+.client_right{
+     width: 70%;
+     float: left;
+}
+.image_10{
+     width: 80%;
+     float: left;
+}
+.miller_text {
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    color: #356db5;
+    padding-top: 25px;
+}
+.dummy_text{
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #fff;
+     margin-left: 0px;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+}
+.carousel-indicators li {
+    width: 40px;
+    height: 10px;
+    background-color: #356db5;
+    border-radius: 20px;
+    bottom: -50px;
+}
+.contact_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+.contact_section_2{
+     width: 100%;
+     float: left;
+}
+.mail_section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.mail_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #a1a0a0;
+    background-color: transparent !important;
+    padding-right: 20px;
+    border: 2px;
+    border-color: #356db5;
+    border-style: dotted;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.massage_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #a1a0a0;
+    background-color: transparent !important;
+    padding-right: 20px;
+    border: 2px;
+    border-color: #356db5;
+    border-style: dotted;
+    height: 150px;
+    padding: 60px 15px 0px 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.send_bt1 {
+     width: 170px;
+     margin: 0 auto;
+     text-align: center;
+     font-size: 24px;
+     color: #000;
+     text-align: center;
+     background-color: #356db5;
+     padding: 8px 0px;
+     border-radius: 30px;
+     margin-top: 50px;
+}
+.send_bt1 a:hover{
+     color: #fff;
+     background-color: #ffffff;
+     border: 2px;
+     border-color: #356db5;
+     border-style: dotted;
+}
+
+.send_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.send_bt a {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #356db5;
+    padding: 8px 0px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.send_bt a:hover{
+    color: #000;
+    background-color: #ffffff;
+    border: 2px;
+    border-color: #356db5;
+    border-style: dotted;
+}
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: auto;
+    border: 3px;
+    border-color: #356db5;
+    border-style: dotted;
+}
+.footer_logo{
+     width: 100%;
+     float: left;
+}
+.footer_text{
+     width: 100%;
+     float: left;
+     font-size: 16px;
+     color: #fefefd;
+     margin-left: 0px;
+}
+.categories_text {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #fffcf4;
+    font-weight: bold;
+}
+.medicines_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefefd;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.image_11{
+     width: 100%;
+     float: left;
+}
+.copyright_section {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px;
+    border-color: #356db5;
+    border-style: dotted;
+    margin-top: 60px;
+}
+.copyright_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    margin-left: 0px;
+    color: #fff;  
+}
+.copyright_text a{
+    color: #ffffff;
+}
+.copyright_text a:hover{
+    color: #356db5;
+}
+.margin_top_0{
+     margin-top: 90px;
+}

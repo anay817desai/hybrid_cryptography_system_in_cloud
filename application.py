@@ -41,8 +41,8 @@ mydb.row_factory = sqlite3.Row
 mycursor = mydb.cursor()
 
 ##delete table uncomment below 2 lines and again comment it.
-mycursor.execute(DROP TABLE User_Master;)
-mycursor.execute(DROP TABLE Health_Data;)
+#mycursor.execute(DROP TABLE User_Master;)
+#mycursor.execute(DROP TABLE Health_Data;)
 #======================================================================================
 
 

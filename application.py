@@ -41,7 +41,7 @@ mydb.row_factory = sqlite3.Row
 mycursor = mydb.cursor()
 
 ##delete table uncomment below 2 lines and again comment it.
-os.remove('hybrid_cryptography_system.db')
+#os.remove('hybrid_cryptography_system.db')
 #======================================================================================
 
 

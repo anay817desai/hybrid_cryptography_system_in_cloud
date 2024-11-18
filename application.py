@@ -41,7 +41,12 @@ mydb.row_factory = sqlite3.Row
 mycursor = mydb.cursor()
 
 ##delete table uncomment below 2 lines and again comment it.
+#mycursor.execute("DELETE FROM User_Master;")
+#mycursor.execute("DELETE FROM Health_Data;")
+
 #os.remove('hybrid_cryptography_system.db')
+
+
 #======================================================================================
 
 

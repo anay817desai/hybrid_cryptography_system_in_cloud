@@ -76,9 +76,9 @@ def aeschachadecryption(ciphertext, key):
 
 
 def send_email(textmsg,subject,emailid):
-    sender = "projectmailnew2122@gmail.com"
-    username = "projectmailnew2122@gmail.com"
-    password = "nhoarkxyqojoieav"
+    sender = "desai.a817@gmail.com"
+    username = "desai.a817@gmail.com"
+    password = "fbimeaqwfhokfdpf"
     msg = MIMEText(str(textmsg))
     msg['Subject'] = subject
     msg['From'] = sender
